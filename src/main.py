@@ -11,6 +11,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    print('hii')
+    return {"Hello": "my name is khan " "World my age is 22 "}
 
 
